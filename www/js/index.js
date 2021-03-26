@@ -17,6 +17,7 @@ function init() {
             document.getElementById("count").innerHTML += num + "";
             if (i < maxNum - 1)
                 document.getElementById("count").innerHTML += ",";
+            arr[num-1] = null;
         }
     })
 }
